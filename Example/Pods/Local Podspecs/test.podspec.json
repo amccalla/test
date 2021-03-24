@@ -1,0 +1,24 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "summary": "A short description of test. This is a test pod to manage dependency between third party frameworks & other pods",
+  "swift_versions": "5.0",
+  "description": "A short description of test. This A short description of test. This A short description of test. This A short description of test. This A short description of test. This A short description of test. This A short description of test. This A short description of test. This",
+  "homepage": "https://github.com/amccalla/test",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "amccalla": "amccalla1912@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/amccalla/test.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "test/Classes/**/*",
+  "swift_version": "5.0"
+}
