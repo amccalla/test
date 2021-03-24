@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'test'
-  s.version          = '1.0.4'
+  s.version          = '1.0.3'
   s.summary          = 'A short description of test. This is a test pod to manage dependency between third party frameworks & other pods'
   s.swift_versions = '5.0'
 
@@ -32,10 +32,10 @@ Pod::Spec.new do |s|
   
   s.vendored_frameworks = 'Frameworks/AmazonChimeSDK.xcframework', 'Frameworks/AmazonChimeSDKMedia.xcframework' 
   s.preserve_path = 'Frameworks/*' 
-  #s.pod_target_xcconfig = {
+  s.pod_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
   }
-  #s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   # s.resource_bundles = {
   #   'test' => ['test/Assets/*.png']
   # }
