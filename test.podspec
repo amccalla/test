@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'test'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'A short description of test. This is a test pod to manage dependency between third party frameworks & other pods'
   s.swift_versions = '5.0'
 
@@ -30,8 +30,8 @@ Pod::Spec.new do |s|
 
   s.source_files = 'test/Classes/**/*'
   
-  s.vendored_frameworks = 'test/Frameworks/AmazonChimeSDK.framework', 'test/Frameworks/AmazonChimeSDKMedia.framework' 
-  s.preserve_path = 'test/Frameworks/*' 
+  s.vendored_frameworks = 'Frameworks/AmazonChimeSDK.framework', 'Frameworks/AmazonChimeSDKMedia.framework' 
+  s.preserve_path = 'Frameworks/*' 
   
   # s.resource_bundles = {
   #   'test' => ['test/Assets/*.png']
