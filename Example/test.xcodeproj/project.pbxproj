@@ -291,10 +291,14 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-test_Example/Pods-test_Example-frameworks.sh",
+				"${PODS_ROOT}/../../Frameworks/AmazonChimeSDK.framework",
+				"${PODS_ROOT}/../../Frameworks/AmazonChimeSDKMedia.framework",
 				"${BUILT_PRODUCTS_DIR}/test/test.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AmazonChimeSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AmazonChimeSDKMedia.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/test.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

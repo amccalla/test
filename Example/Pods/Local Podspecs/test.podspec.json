@@ -1,6 +1,6 @@
 {
   "name": "test",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "summary": "A short description of test. This is a test pod to manage dependency between third party frameworks & other pods",
   "swift_versions": "5.0",
   "description": "A short description of test. This A short description of test. This A short description of test. This A short description of test. This A short description of test. This A short description of test. This A short description of test. This A short description of test. This",
@@ -14,11 +14,22 @@
   },
   "source": {
     "git": "https://github.com/amccalla/test.git",
-    "tag": "1.0.1"
+    "tag": "1.0.3"
   },
   "platforms": {
     "ios": "9.0"
   },
   "source_files": "test/Classes/**/*",
+  "vendored_frameworks": [
+    "Frameworks/AmazonChimeSDK.framework",
+    "Frameworks/AmazonChimeSDKMedia.framework"
+  ],
+  "preserve_paths": "Frameworks/*",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
   "swift_version": "5.0"
 }

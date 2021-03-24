@@ -30,9 +30,12 @@ Pod::Spec.new do |s|
 
   s.source_files = 'test/Classes/**/*'
   
-  s.vendored_frameworks = 'Frameworks/AmazonChimeSDK.framework', 'Frameworks/AmazonChimeSDKMedia.framework' 
+  s.vendored_frameworks = 'Frameworks/AmazonChimeSDK.xcframework', 'Frameworks/AmazonChimeSDKMedia.xcframework' 
   s.preserve_path = 'Frameworks/*' 
-  
+  #s.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
+  #s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   # s.resource_bundles = {
   #   'test' => ['test/Assets/*.png']
   # }
