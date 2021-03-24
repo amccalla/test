@@ -41,10 +41,12 @@
 		0678AE4D89645C424A82298E7AB72880 /* test-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "test-Info.plist"; sourceTree = "<group>"; };
 		1BA87846F2EBFFC5AC672B785D5CBEC2 /* Pods-test_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-test_Tests.modulemap"; sourceTree = "<group>"; };
 		2F5C8CBC9B2806EC56E19A9FE7FC4424 /* Pods-test_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-test_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2F6C3E8246F748F1CC0CF09C276B1501 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2F6C3E8246F748F1CC0CF09C276B1501 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3288A1646B204BB1A2B94EDDA4AE2070 /* demo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = demo.swift; path = test/Classes/demo.swift; sourceTree = "<group>"; };
-		438EB7992DFCB7F862A568A324A17C6E /* Pods_test_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_test_Example.framework; path = "Pods-test_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		438EB7992DFCB7F862A568A324A17C6E /* Pods_test_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5149C7CC1686ECFB05855434084C204F /* Pods-test_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-test_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5CFFE391260BD683007346D6 /* AmazonChimeSDKMedia.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AmazonChimeSDKMedia.xcframework; path = Frameworks/AmazonChimeSDKMedia.xcframework; sourceTree = "<group>"; };
+		5CFFE392260BD683007346D6 /* AmazonChimeSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AmazonChimeSDK.xcframework; path = Frameworks/AmazonChimeSDK.xcframework; sourceTree = "<group>"; };
 		68D1277EB5E80B3068E3F7CD03A10133 /* Pods-test_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-test_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		741120FE7361578A551A161B9698148E /* Pods-test_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-test_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -53,16 +55,16 @@
 		849088C2B407FAFAFDAC5A01BA07237E /* Pods-test_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-test_Example-umbrella.h"; sourceTree = "<group>"; };
 		85CFAAAA1E2626104C87B051DB79235C /* test-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "test-prefix.pch"; sourceTree = "<group>"; };
 		8BEEFDF87C696518A82A8D299D1E2EFF /* Pods-test_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-test_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8D7EADBC4BB77A389E3DFCC84293E064 /* test.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = test.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8D7EADBC4BB77A389E3DFCC84293E064 /* test.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = test.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97DCC83DA8A494B18D02F11493B81DB0 /* test-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "test-umbrella.h"; sourceTree = "<group>"; };
-		9864D2D8D6CEEA7CD9ADCE5934B8CB38 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9864D2D8D6CEEA7CD9ADCE5934B8CB38 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9AF433899D5C506EA0EE5DD7D7FFC6D6 /* test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = test.release.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F5059E4B29ECF6BA77D248DCAEBE474 /* Pods-test_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-test_Example-Info.plist"; sourceTree = "<group>"; };
 		A1E1C2030D52E8A997EEE2698E7663ED /* AmazonChimeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AmazonChimeSDK.framework; path = Frameworks/AmazonChimeSDK.framework; sourceTree = "<group>"; };
 		A621EE185BE86131968C0119BCCEF138 /* Pods-test_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-test_Tests-dummy.m"; sourceTree = "<group>"; };
 		A7CB110C43F02CD8C41BD350542C0CA7 /* Pods-test_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-test_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AAAB063044585CFC51C55165CF8AC040 /* Pods_test_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_test_Tests.framework; path = "Pods-test_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAAB063044585CFC51C55165CF8AC040 /* Pods_test_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B46CADDFCE49D22566C500A863BC9119 /* Pods-test_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-test_Tests-Info.plist"; sourceTree = "<group>"; };
 		C6EC6806E6124BDDC0AB697A8E70C1A4 /* Pods-test_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-test_Example.modulemap"; sourceTree = "<group>"; };
 		CFA8655F7A61867CD96DD6EE1FB32212 /* Pods-test_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-test_Example-dummy.m"; sourceTree = "<group>"; };
@@ -70,7 +72,7 @@
 		E1DE54D36451DC418F8FDA212B4ACBE1 /* Pods-test_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-test_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E46E6083A53D8F3EF49965EDA6EDF8E5 /* Pods-test_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-test_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E6D85DBFA115A89FF08B0D91B84CA269 /* Pods-test_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-test_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F4DD4AD7A1A5A9C2DA4D59DAFD0B4EAD /* test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = test.framework; path = test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4DD4AD7A1A5A9C2DA4D59DAFD0B4EAD /* test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6DA652DAA0FDE2E2F62ABE286D49573 /* test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = test.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,6 +125,8 @@
 		7795A50EDB4EF4014FF8780A794E5283 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5CFFE392260BD683007346D6 /* AmazonChimeSDK.xcframework */,
+				5CFFE391260BD683007346D6 /* AmazonChimeSDKMedia.xcframework */,
 				A1E1C2030D52E8A997EEE2698E7663ED /* AmazonChimeSDK.framework */,
 				834CDD137A5472C6A1EA5B6E3FD24788 /* AmazonChimeSDKMedia.framework */,
 			);
@@ -698,8 +702,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
