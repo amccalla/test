@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'test'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'A short description of test. This is a test pod to manage dependency between third party frameworks & other pods'
   s.swift_versions = '5.0'
 
