@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		012CE427BF32D05BB268EEC92A9B594D /* demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E994AF608EC83E7CC618C9AE07A6D4 /* demo.swift */; };
 		0909ACF8DC8D8BE70FBBFA3115E35BB2 /* Pods-test_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E46E6083A53D8F3EF49965EDA6EDF8E5 /* Pods-test_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		58497A360A42FD5FC6273450BADE29CD /* test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A994F80F9FFA33DF4F3CB3D26D1E9B /* test-dummy.m */; };
-		5CFFE340260B944B007346D6 /* demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFFE33F260B944B007346D6 /* demo.swift */; };
+		5CFFE34C260B99E6007346D6 /* AmazonChimeSDKMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CFFE34A260B99E5007346D6 /* AmazonChimeSDKMedia.framework */; };
+		5CFFE34D260B99E6007346D6 /* AmazonChimeSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CFFE34B260B99E5007346D6 /* AmazonChimeSDK.framework */; };
 		66709DA7894D79D500A452345A41E338 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		79BCEA5671139201C8BEDD23F653B79C /* test-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7E8DEF629B22B8C8C791CCA4016F714 /* test-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7C5962303CA01C902A7D9E2D7BFBE9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -40,11 +42,13 @@
 		0823688E3E3CBF1DE4756F35CBA5892C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		1B5B3C657838887BAD31413DCB13AF94 /* test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = test.debug.xcconfig; sourceTree = "<group>"; };
 		1BA87846F2EBFFC5AC672B785D5CBEC2 /* Pods-test_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-test_Tests.modulemap"; sourceTree = "<group>"; };
+		21E994AF608EC83E7CC618C9AE07A6D4 /* demo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = demo.swift; path = test/Classes/demo.swift; sourceTree = "<group>"; };
 		28A994F80F9FFA33DF4F3CB3D26D1E9B /* test-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "test-dummy.m"; sourceTree = "<group>"; };
 		2F5C8CBC9B2806EC56E19A9FE7FC4424 /* Pods-test_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-test_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		438EB7992DFCB7F862A568A324A17C6E /* Pods_test_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5149C7CC1686ECFB05855434084C204F /* Pods-test_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-test_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5CFFE33F260B944B007346D6 /* demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo.swift; sourceTree = "<group>"; };
+		5CFFE34A260B99E5007346D6 /* AmazonChimeSDKMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AmazonChimeSDKMedia.framework; sourceTree = "<group>"; };
+		5CFFE34B260B99E5007346D6 /* AmazonChimeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AmazonChimeSDK.framework; sourceTree = "<group>"; };
 		6448B47877703CBFDCAF6D9E8BCADB54 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		68D1277EB5E80B3068E3F7CD03A10133 /* Pods-test_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-test_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -94,6 +98,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				66709DA7894D79D500A452345A41E338 /* Foundation.framework in Frameworks */,
+				5CFFE34D260B99E6007346D6 /* AmazonChimeSDK.framework in Frameworks */,
+				5CFFE34C260B99E6007346D6 /* AmazonChimeSDKMedia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,19 +129,18 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5CFFE33E260B9444007346D6 /* Classes */ = {
+		5CFFE349260B999E007346D6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5CFFE33F260B944B007346D6 /* demo.swift */,
+				5CFFE34B260B99E5007346D6 /* AmazonChimeSDK.framework */,
+				5CFFE34A260B99E5007346D6 /* AmazonChimeSDKMedia.framework */,
 			);
-			name = Classes;
-			path = test/Classes;
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 		6CD6DF077118D8E0C3174E40279BEAF8 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				5CFFE33E260B9444007346D6 /* Classes */,
 				0823688E3E3CBF1DE4756F35CBA5892C /* LICENSE */,
 				6448B47877703CBFDCAF6D9E8BCADB54 /* README.md */,
 				AE9EAC107482363D9A615429E30E3ED6 /* test.podspec */,
@@ -146,6 +151,7 @@
 		8D971EAF6C21529A5C0A5FC24FC172AB /* test */ = {
 			isa = PBXGroup;
 			children = (
+				21E994AF608EC83E7CC618C9AE07A6D4 /* demo.swift */,
 				6CD6DF077118D8E0C3174E40279BEAF8 /* Pod */,
 				4D3CF144EB4BFCD9EF203DC6E6A7033F /* Support Files */,
 			);
@@ -189,6 +195,7 @@
 		C286CCDC7423AE38E06C38B7E4714C4A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
+				5CFFE349260B999E007346D6 /* Frameworks */,
 				8D971EAF6C21529A5C0A5FC24FC172AB /* test */,
 			);
 			name = "Development Pods";
@@ -326,11 +333,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					CB58BFB891E6453F54B8934E44AA1D9D = {
-						LastSwiftMigration = 1240;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -381,7 +383,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CFFE340260B944B007346D6 /* demo.swift in Sources */,
 				ED1B714C3E2E130A678B1F5F5B9FA2BB /* Pods-test_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,6 +391,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				012CE427BF32D05BB268EEC92A9B594D /* demo.swift in Sources */,
 				58497A360A42FD5FC6273450BADE29CD /* test-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -491,7 +493,6 @@
 			baseConfigurationReference = 8BEEFDF87C696518A82A8D299D1E2EFF /* Pods-test_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -500,6 +501,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = "Target Support Files/Pods-test_Example/Pods-test_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -513,7 +518,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -589,7 +593,6 @@
 			baseConfigurationReference = 741120FE7361578A551A161B9698148E /* Pods-test_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -598,6 +601,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = "Target Support Files/Pods-test_Example/Pods-test_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -611,8 +618,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
